@@ -4,6 +4,23 @@
 
 The **M3 Chat Go SDK** is a Go client for interacting with the [M3 Chat](https://github.com/m3-chat) AI chat platform. It offers an easy-to-use, idiomatic Go interface compatible with the official TypeScript SDK, allowing you to send chat messages, stream responses, and batch multiple requests.
 
+## Table of Contents
+* [Introduction](https://github.com/m3-chat/go-sdk?tab=readme-ov-file)
+* [Table of Contents](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#table-of-contents)
+* [Features](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#features)
+* [Installation](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#installation)
+* [Quick Start](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#quick-start)
+* [Usage](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#usage)
+    * [Client Creation](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#client-creation)
+    * [GetResponse](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#getresponse)
+    * [BatchRequests](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#batchrequests)
+* [Available Models](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#available-models)
+* [Development](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#development)
+* [Contribution](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#contribution)
+* [License](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#license)
+* [Contact](https://github.com/m3-chat/go-sdk?tab=readme-ov-file#contact)
+
+
 ## Features
 
 - Send chat requests with configurable models and content
@@ -19,7 +36,7 @@ The **M3 Chat Go SDK** is a Go client for interacting with the [M3 Chat](https:/
 go get github.com/m3-chat/go-sdk
 ````
 
-## Quickstart
+## Quick start
 
 ```go
 package main
@@ -47,7 +64,7 @@ func main() {
 }
 ```
 
-## API Overview
+## Usage
 
 ### Client Creation
 
@@ -122,7 +139,7 @@ cd go-sdk
 go build ./...
 ```
 
-## Contributing
+## Contribution
 
 Contributions, issues, and feature requests are welcome! Please open issues or pull requests on the [GitHub repo](https://github.com/m3-chat/go-sdk).
 
